@@ -14,7 +14,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/welcome" />
+        app:srcCompat="@drawable/welcome"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/logout"
@@ -23,6 +24,6 @@
         android:layout_margin="40dp"
         android:background="#4A221616"
         android:gravity="center"
-        android:text="Logout"
+        android:text="@string/logout"
         android:textSize="29sp" />
 </LinearLayout>

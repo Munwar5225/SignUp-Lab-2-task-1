@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -18,7 +17,7 @@
         android:layout_marginBottom="10dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Name"
+        android:hint="@string/name"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textSize="20sp" />
@@ -32,7 +31,7 @@
         android:layout_marginBottom="10dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Username"
+        android:hint="@string/username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textSize="20sp" />
@@ -46,7 +45,7 @@
         android:layout_marginBottom="30dp"
         android:autofillHints=""
         android:ems="10"
-        android:hint="Password"
+        android:hint="@string/password"
         android:inputType="textPassword"
         android:minHeight="48dp"
         android:textSize="20sp" />
@@ -61,7 +60,7 @@
         android:background="#CD2C2929"
         android:gravity="center"
         android:padding="10dp"
-        android:text="SignUp"
+        android:text="@string/signup"
         android:textColor="#F6F1F1"
         android:textSize="24sp" />
 </LinearLayout>

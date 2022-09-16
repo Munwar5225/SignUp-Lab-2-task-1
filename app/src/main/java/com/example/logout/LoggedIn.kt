@@ -10,9 +10,9 @@ class LoggedIn : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_logged_in)
-        var logout : Button = findViewById(R.id.logout)
+        val logout : Button = findViewById(R.id.logout)
         logout.setOnClickListener {
-        val intent : Intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             Toast.makeText(this, "Logged Out", Toast.LENGTH_LONG).show()
         }
